@@ -28,6 +28,9 @@ export interface Dataset {
 
   /** Stroke Dash Offset */
   strokeDashOffset?: number;
+  
+  /** Disable shadow */
+  withoutShadow?: boolean
 }
 
 export interface ChartData {
