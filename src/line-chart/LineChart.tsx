@@ -562,7 +562,7 @@ class LineChart extends AbstractChart<LineChartProps, LineChartState> {
 
     return data.map((dataset, index) => {
       return (
-        <Polygon
+        dataset.withoutShadow ? undefined : <Polygon
           key={index}
           points={
             dataset.data
