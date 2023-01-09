@@ -23,8 +23,8 @@
     "esModuleInterop": true,
     "noErrorTruncation": true,
     "jsx": "react-native",
-    "exclude": [
-      "node_modules",
-    ]
-  }
+  },
+  "exclude": [
+    "node_modules",
+  ]
 }
