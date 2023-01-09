@@ -22,6 +22,9 @@
     "inlineSources": true,
     "esModuleInterop": true,
     "noErrorTruncation": true,
-    "jsx": "react-native"
+    "jsx": "react-native",
+    "exclude": [
+      "node_modules",
+    ]
   }
 }
